@@ -17,7 +17,7 @@ function App() {
                 Thiết kế Website / Landing Page
               </CAccordionHeader>
               <CAccordionBody>
-                <div className="grid grid-cols-6 gap-[15px]">
+                <div className="grid grid-cols-1 md:grid-cols-6 gap-[15px]">
                   <div className="project-item">
                     <div className="img">
                       <img src="/images/ccvietnam.png" alt="" />
@@ -99,7 +99,7 @@ function App() {
                 Youtube - Tiktok
               </CAccordionHeader>
               <CAccordionBody>
-                <div className="grid grid-cols-2">
+                <div className="grid grid-cols-1 md:grid-cols-2">
                   <div className="project-item">
                     <div>
                       <p className="title">Tiktok Ms.Anna</p>
@@ -130,8 +130,8 @@ function App() {
             <CAccordionItem itemKey={3}>
               <CAccordionHeader>Sản xuất video</CAccordionHeader>
               <CAccordionBody>
-                <div className="grid grid-cols-3">
-                  <div className="flex gap-[10px]">
+                <div className="grid grid-cols-1 md:grid-cols-3">
+                  <div className="flex md:flex-row flex-col gap-[10px]">
                     <div className="project-item">
                       <div>
                         <p className="title">Mega Wine</p>
@@ -155,7 +155,7 @@ function App() {
                       </div>
                     </div>
                   </div>
-                  <div className="flex gap-[10px]">
+                  <div className="flex md:flex-row flex-col gap-[10px]">
                     <div className="project-item">
                       <div>
                         <p className="title">
@@ -200,7 +200,7 @@ function App() {
             <CAccordionItem itemKey={4}>
               <CAccordionHeader>Tổ chức sự kiện</CAccordionHeader>
               <CAccordionBody>
-                <div className="grid grid-cols-4">
+                <div className="grid grid-cols-1 md:grid-cols-4">
                   <div className="project-item">
                     <div>
                       <p className="title">
