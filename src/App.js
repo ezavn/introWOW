@@ -53,14 +53,11 @@ function App() {
                   </div>
                   <div className="project-item">
                     <div className="img">
-                      <img src="/images/pbc26.png" alt="" />
+                      <img src="/images/pbc27.png" alt="" />
                     </div>
                     <div>
                       <p className="title">Planning Bootcamp</p>
-                      <a
-                        target="_blank"
-                        href="https://pbc26.planningbootcampcbd.com/"
-                      >
+                      <a target="_blank" href="https://pbc27.vercel.app/">
                         Xem Landing Page
                       </a>
                     </div>
@@ -130,9 +127,12 @@ function App() {
             <CAccordionItem itemKey={3}>
               <CAccordionHeader>Sản xuất video</CAccordionHeader>
               <CAccordionBody>
-                <div className="grid grid-cols-1 md:grid-cols-3">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-[15px]">
                   <div className="flex md:flex-row flex-col gap-[10px]">
                     <div className="project-item">
+                      <div className="logo">
+                        <img src="/images/megawine-logo.png" alt="" />
+                      </div>
                       <div>
                         <p className="title">Mega Wine</p>
                         <a
@@ -144,6 +144,9 @@ function App() {
                       </div>
                     </div>
                     <div className="project-item">
+                      <div className="logo">
+                        <img src="/images/sainam-logo.png" alt="" />
+                      </div>
                       <div>
                         <p className="title">Đại lý thuế Sài Nam</p>
                         <a
@@ -157,6 +160,9 @@ function App() {
                   </div>
                   <div className="flex md:flex-row flex-col gap-[10px]">
                     <div className="project-item">
+                      <div className="logo">
+                        <img src="/images/vdas-logo.png" alt="" />
+                      </div>
                       <div>
                         <p className="title">
                           Hiệp Hội Thiết Kế TP. HCM - VDAS
@@ -170,6 +176,9 @@ function App() {
                       </div>
                     </div>
                     <div className="project-item">
+                      <div className="logo">
+                        <img src="/images/bni-logo.jpg" alt="" />
+                      </div>
                       <div>
                         <p className="title">BNI Central 6</p>
                         <a
@@ -183,6 +192,9 @@ function App() {
                   </div>
                   <div>
                     <div className="project-item">
+                      <div className="logo">
+                        <img src="/images/vda-logo.png" alt="" />
+                      </div>
                       <div>
                         <p className="title">Đại Lý Vé Máy Bay Hồ Phi Long</p>
                         <a
